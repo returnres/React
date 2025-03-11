@@ -5,6 +5,7 @@ import './App.css'
 import LoginForm from './LoginForm.jsx'
 import Demo from './Demo.jsx'
 import Card from './Card.jsx'
+import TodoList from './TodoList.jsx'
 import Button from './Button.jsx'
 import './index.css';
 
@@ -28,9 +29,10 @@ function App() {
       </div>
       <Demo name="Robbe"/>
       <LoginForm />
+      <TodoList />
       <div className="app">
       
-      <Card title="Card con testo">
+      <Card title="Card con testo 1">
         <p>Questo è un semplice paragrafo all'interno della Card.</p>
         <p>Possiamo inserire qualsiasi contenuto come children!</p>
       </Card>
